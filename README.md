@@ -3,7 +3,7 @@
 **Modular desktop AI assistant** built with Python — modern GUI, persistent chat history, streaming responses, and secure environment-based configuration.
 
 [![Python](https://img.shields.io/badge/Python-3.11%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-Personal-lightgrey)](#)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 **Author:** [Amirhossein Bakhshi](https://github.com/Amirhosseinbakhshi2011)  
 **Stack:** Python · CustomTkinter · OpenAI-compatible APIs
@@ -64,6 +64,7 @@ AI/
 ├── data/chats/          # Chat history (gitignored)
 ├── .env.example
 ├── requirements.txt
+├── LICENSE
 └── README.md
 ```
 
@@ -92,10 +93,9 @@ Never commit real `.env` files.
 
 ---
 
-## Notes for contributors / reviewers
+## License
 
-- `__pycache__/`, `.idea/`, `logs/`, and `data/chats/*.json` are ignored.
-- If you still see them in the tree, they were committed before the ignore rules; they should not be added in new commits.
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
 ---
 
